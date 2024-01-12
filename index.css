@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.divn{
+    background-image: url("https://img.freepik.com/free-vector/abstract-futuristic-background-concept_23-2148409810.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704931200&semt=ais");
+    border: 3px solid blue;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size:large;
+    font-style: italic;
+}
+.divm{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20220916/pngtree-tic-tac-toe-game-toy-tic-tac-toe-criss-cross-photo-image_587205.jpg");
+    border: 3px solid black;
+}
+#title-text{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3rem;
+    font-weight: 700px;
+    background: url(title-scrolling.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animateTitle 300s linear infinite;
+    -webkit-animation: animateTitle 300s linear infinite;
+}
+
+
+
+.title-box{
+    max-width: 768px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.title-box h2{
+font-size: 1.5rem;
+font-family: 'Libre Baskerville', serif;
+font-weight: 400px;
+}
+
+.instruction{
+    max-width: 768px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+}
+
+
+
+#bg{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn-container a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.btn-container a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    background-color:darkgray;
+    transition: all 0.3s ease;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+
+    animation-name: fontAnimation;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes fontAnimation{
+    from{
+        font-size: 1.5rem;
+    }
+    to{
+        font-size: 2.0rem;
+    }
+}
